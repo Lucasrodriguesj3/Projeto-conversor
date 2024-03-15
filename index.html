@@ -6,10 +6,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Oswald&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <title>Conversor De Moedas</title>
+<link rel="stylesheet" href="style.css">         
+<title>Conversor De Moedas</title>
 </head>
 <body>
-    <img src="./assets/logo.gif" alt="logo-dinheiro-gif">
+    <img class="logo" src="./assets/logo.gif" alt="logo-dinheiro-gif">
 
     <main>
         <label>
@@ -42,21 +43,23 @@
             <button>Converter</button>
             
             <section>
-                <div>
+                <div class="currency-box">
                     <img src="./assets/real.png" alt="logo.real">
-                    <p>Real</p>
-                    <p>R$ 0,00</p>
+                    <p class="currency">Real</p>
+                    <p class="currency-value">R$ 0,00</p>
                 </div>
 
-                <img src="./assets/Vector.png" alt="logo-seta">
+                <img class="seta" src="./assets/Vector.png" alt="logo-seta">
 
-                <div>
+                <div class="currency-box">
                     <img src="./assets/dolar.png" alt="logo.dolar">
-                    <p>Dolar</p>
-                    <p>US$ 0.0</p>
+                    <p class="currency">Dolar</p>
+                    <p class="currency-value">US$ 0.0</p>
                 </div>
 
             </section>
+
+        
             
        
     </main>
