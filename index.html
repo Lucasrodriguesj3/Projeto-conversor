@@ -15,7 +15,7 @@
     <div class="video-dinheiro">
 
         <video src="./assets/dinheiro.mp4" autoplay loop >
-              
+
     </div> 
   
   <img class="logo" src="./assets/logo.gif" alt="logo-dinheiro-gif"> -->
@@ -35,10 +35,10 @@
 
             <label>
                 Converter <b>para</b>
-                <select>
-                    <option>US$ Dolar Americano </option>
-                    <option>€ Euro </option>
-                    <option>£ Libra</option>
+                <select class="currency-select">
+                    <option value="dolar">US$ Dolar Americano </option>
+                    <option value="euro">€ Euro </option>
+                    <option value="libra">£ Libra</option>
                 </select>
             
             </label>
@@ -55,14 +55,14 @@
                 <div class="currency-box">
                     <img src="./assets/real.png" alt="logo.real">
                     <p class="currency">Real</p>
-                    <p class="currency-value">R$ 0,00</p>
+                    <p class="currency-value-to-convert">R$ 0,00</p>
                 </div>
 
                 <img class="seta" src="./assets/Vector.png" alt="logo-seta">
 
                 <div class="currency-box">
-                    <img src="./assets/dolar.png" alt="logo.dolar">
-                    <p class="currency">Dolar</p>
+                    <img class="currency-img" src="./assets/dolar.png" alt="logo.dolar">
+                    <p class="currency" id="currency-name">Dolar</p>
                     <p class="currency-value">US$ 0.0</p>
                 </div>
 
